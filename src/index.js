@@ -8,12 +8,12 @@ import './index.css';
 import App from './App';
 import shopReducer from './store/reducers';
 
-const store = createStore(shopReducer, applyMiddleware(reduxThunk));
+//const store = createStore(shopReducer, applyMiddleware(reduxThunk));
 
 ReactDOM.render(
-  <Provider store={store}>
-    <App />
-  </Provider>,
+  //<Provider >
+    <App />,
+  //</Provider>,
   document.getElementById('root')
 );
 
