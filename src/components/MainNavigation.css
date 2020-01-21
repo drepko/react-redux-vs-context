@@ -1,7 +1,7 @@
 .main-navigation {
   width: 100%;
   height: 4.5rem;
-  background: #00179b;
+  background: #9b0000;
 }
 
 .main-navigation nav {
@@ -36,5 +36,5 @@
 .main-navigation a:hover,
 .main-navigation a:active {
   background: white;
-  color: #00179b;
+  color: #9b0000;
 }
